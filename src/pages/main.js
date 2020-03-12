@@ -21,6 +21,8 @@ export default function Main({ navigation }) {
             </View>
             <View style={Styles.Buttons}>
                 <Button  title="How To Use" color="gray" onPress={navigateToHowtoUse} />
+            </View>
+            <View style={Styles.Buttons}>
                 <Button title="About" color="gray" onPress={navigateToAbout} />
             </View>
             <View style={{ marginTop: 300 }}>
@@ -37,6 +39,9 @@ const Styles = StyleSheet.create({
         justifyContent: 'center',
         backgroundColor: 'white',
 
+    },
+    Buttons: {
+        padding: 10,
     },
     
 
