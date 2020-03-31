@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import { Text, View, StyleSheet, Image, Button, TextInput } from 'react-native';
 
+
+
 export default class home extends Component {
     constructor(props){
         super(props);
