@@ -9,6 +9,7 @@ import Main from './pages/main';
 import home from './pages/home';
 import about from './pages/about';
 import howToUse from './pages/howToUse';
+import connect from './pages/connect';
 import { Header } from 'react-native/Libraries/NewAppScreen';
 
 export default function Routes () {
@@ -18,6 +19,7 @@ export default function Routes () {
         <Stack.Screen name="Home" component={home}/>
         <Stack.Screen name="About" component={about}/>
         <Stack.Screen name="HowtoUse" component={howToUse}/>
+        <Stack.Screen name="Connect" component={connect}/>
     </Stack.Navigator>
     );
 }

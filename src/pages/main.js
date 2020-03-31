@@ -4,6 +4,9 @@ import { View, Text, Button, Image, StyleSheet } from 'react-native';
 
 
 export default function Main({ navigation }) {
+    function navigateToConnect() {
+        navigation.navigate('Connect');
+    }
     function navigateToHome() {
         navigation.navigate('Home');
     }
@@ -26,7 +29,7 @@ export default function Main({ navigation }) {
                 <Button title="About" color="gray" onPress={navigateToAbout} />
             </View>
             <View style={{ marginTop: 300 }}>
-                <Button title="CONECTAR" color="gray" onPress={navigateToHome} />
+                <Button title="CONECTAR" color="gray" onPress={navigateToConnect} />
             </View>
         </View>
     );
