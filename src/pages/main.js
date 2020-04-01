@@ -28,7 +28,7 @@ export default function Main({ navigation }) {
             <View style={Styles.Buttons}>
                 <Button title="About" color="gray" onPress={navigateToAbout} />
             </View>
-            <View style={{ marginTop: 300 }}>
+            <View style={{ marginTop: 100 }}>
                 <Button title="CONECTAR" color="gray" onPress={navigateToConnect} />
             </View>
         </View>
